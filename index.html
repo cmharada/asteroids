@@ -7,6 +7,7 @@
     html, body{
       padding: 0px;
       margin: 0px;
+      background-color: #333333;
     }
 
     canvas{
@@ -14,13 +15,22 @@
       display: block;
     }
 
+    h2, p {
+      text-align: center;
+      color: #AAAAAA;
+    }
     </style>
 </head>
 
 <body>
-  <br>
+  <h2>Asteroids</h2>
   <canvas></canvas>
+  <p>CONTROLS:</p>
 
+  <p>Left and Right Arrow Keys: Turn ship</p>
+  <p>Up Arrow Key: Thruster</p>
+  <p>Down Arrow Key: Reverse</p>
+  <p>Spacebar: Fire</p>
 
   <script src="keymaster.js"></script>
   <script src="lib/movingObject.js"></script>
